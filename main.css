@@ -1,0 +1,184 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+main {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  background: url(assets/BG\ Stars\ \(1\).png), lightgray 0px -0.03px / 100% 98.536% no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+    display: flex;
+    width: 80%;
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 185px;
+    margin-bottom: 100px;
+}
+#logo {
+    display: flex;
+    width: 59.629px;
+    height: 59.629px;
+    padding: 12.17px 0px 12.229px 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-h1 {
+    width: 144.511px;
+    height: 56.27px;
+    color: #FFF;
+    font-family: PT Mono;
+    font-size: 28.135px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56.27px; /* 200% */
+    letter-spacing: 0.512px;
+}
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu {
+    width: 383px;
+    height: 36px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a {
+    color: #FFF;
+    font-family: PT Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+    text-decoration: none;
+    opacity: 0.9;
+
+}
+#header-button {
+    display: flex;
+    height: 48px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #FFF;
+    cursor: pointer;
+}
+#header-button:hover {
+    color: black;
+    background: #FFF;
+}
+
+#hero {
+    width: 908px;
+    height: 320px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#hero h1 {
+    color: #FFF;
+text-align: center;
+text-shadow: 0px 4px 18px rgba(0, 0, 0, 0.30);
+font-family: PT Mono;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 111.111% */
+letter-spacing: -2px;
+margin-bottom: 31px;
+}
+
+#hero p {
+    width: 723px;
+    color: #FFF;
+
+    font-family: PT Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.667% */
+    margin-bottom: 60px;
+}
+.btn-hero {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #FFD600 0%, #FFB800 100%);
+    box-shadow: 0px 9px 44px 0px rgba(255, 214, 0, 0.19);
+    cursor: pointer;
+}
+.btn-hero:hover {
+    background: linear-gradient(180deg, #2b260d 0%, #523c05 100%);
+    color: #ffd500;
+}
+#superpower {
+    width: 945px;
+    height: 417px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#superpower h3 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 2px 25px rgba(0, 0, 0, 0.60);
+    font-family: PT Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 92px; /* 191.667% */
+}
+
+.div-super{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#superimg {
+    width: 495px;
+    padding-bottom: 0px;
+}
+
+.power-ul{
+    width: 378px;
+    height: 192px;
+    flex-shrink: 0;
+    margin-left: 50px;
+}
+.power-ul li {
+    color: #FFF;
+    font-family: PT Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 240% */
+    color: #FFF;
+}
